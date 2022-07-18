@@ -1,0 +1,118 @@
+@use '../base/mixins' as m;
+
+.about {
+    padding: 2.5rem 0 5rem;
+
+    @include m.md { 
+        padding: 3rem 0 7rem;
+    }
+
+    @include m.lg { 
+        padding: 7rem 0;
+    }
+
+    &__container {
+        gap: 3rem;
+
+        @include m.lg { 
+            grid-template-columns: 488px 1fr;
+            align-items: center;
+            gap: 2rem;
+        }
+    }
+
+    &__info {
+        @include m.lg { 
+            padding-right: 2rem;
+        }
+    }
+
+    &__title {
+        font-size: var(--fs-display-md);
+        font-weight: var(--fw-semi-bold);
+        letter-spacing: -0.9px;
+        line-height: 3rem;
+
+        @include m.md { 
+            font-size: var(--fs-display-lg);
+            letter-spacing: -1.2px;
+            line-height: 3.75rem;
+        }
+    }
+
+    &__copy {
+        margin-top: 1.75rem;
+        font-size: var(--fs-body-md);
+        line-height: 1.75rem;
+
+        &:first-of-type {
+            margin-top: 1rem;
+
+            @include m.md { 
+                margin-top: 1.5rem;
+            }
+        }
+    }
+
+    &__data {
+        display: grid;
+        gap: 3rem;
+
+        @include m.md { 
+            grid-template-columns: 384px 1fr;
+            gap: 2rem;
+            align-items: center;
+        }
+    }
+
+    &__img-container {
+        justify-self: center;
+
+        @include m.md { 
+            justify-self: initial;
+        }
+    }
+
+    &__metrics {
+        display: grid;
+        gap: 3rem;
+
+        @include m.md { 
+            gap: 4rem;
+        }
+
+        @include m.lg { 
+            padding-left: 2rem;
+        }
+    }
+
+    &__metric {
+        padding-bottom: 1rem;
+        border-bottom: 1px solid var(--clr-neutral-400);
+
+        &-number {
+            font-size: var(--fs-display-md);
+            font-weight: var(--fw-semi-bold);
+            letter-spacing: -0.9px;
+            line-height: 3rem;
+            color: var(--clr-neutral-900);
+
+            @include m.md { 
+                font-size: var(--fs-display-lg);
+                line-height: 3.75rem;
+            }
+        }
+
+        &-text {
+            margin-top: .5rem;
+            font-size: var(--fs-body-sm);
+            font-weight: var(--fw-semi-bold);
+            letter-spacing: 2px;
+            line-height: 1.25rem;
+            text-transform: uppercase;
+            color: var(--clr-neutral-500);
+        }
+
+    }
+
+}

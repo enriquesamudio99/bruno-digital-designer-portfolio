@@ -1,0 +1,46 @@
+:root {
+    // Color
+    --clr-primary-600: #5E3BEE;
+    --clr-primary-100: #DFD8FC;
+    --clr-secondary-600: #58C2A2;
+    --clr-secondary-100: #F0FEFA;
+    --clr-neutral-900: #111827;
+    --clr-neutral-800: #1F2937;
+    --clr-neutral-700: #374151;
+    --clr-neutral-600: #4B5563;
+    --clr-neutral-500: #6B7280;
+    --clr-neutral-400: #9CA3AF;
+    --clr-neutral-300: #D1D5DB;
+    --clr-neutral-200: #E5E7EB;
+    --clr-neutral-100: #F3F4F6;
+    --clr-neutral-50: #F9FAFB;
+    --clr-white: #FFFFFF;
+    --clr-black: #000000;
+
+    // Gradient
+    --gradient-1: linear-gradient(90deg, #9CA3AF 0%, rgba(156, 163, 175, 0) 45.82%, rgba(156, 163, 175, 0) 50%, rgba(156, 163, 175, 0) 54.38%, #9CA3AF 100%);
+    --gradient-2: linear-gradient(90deg, #9CA3AF 0%, rgba(156, 163, 175, 0) 39.47%, rgba(156, 163, 175, 0) 50%, rgba(156, 163, 175, 0) 60.51%, #9CA3AF 100%);
+
+    // Typography
+    --fs-display-2xl: 4.5rem;
+    --fs-display-xl: 3.75rem;
+    --fs-display-lg: 3rem;
+    --fs-display-md: 2.25rem;
+    --fs-display-sm: 1.875rem;
+    --fs-display-xs: 1.5rem;
+    --fs-body-xl: 1.25rem;
+    --fs-body-lg: 1.125rem;
+    --fs-body-md: 1rem;
+    --fs-body-sm: 0.875rem;
+    --fs-body-xs: 0.75rem;
+
+    // Font Weight
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semi-bold: 600;
+    --fw-bold: 700;
+
+    // Box Shadows
+    --shadow-xl: 24px 24px 40px -12px rgba(28, 44, 64, 0.08);
+}

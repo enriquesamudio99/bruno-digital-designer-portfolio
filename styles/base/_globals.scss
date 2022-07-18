@@ -1,0 +1,18 @@
+body {
+    font-family: 'Inter', sans-serif;
+    color: var(--clr-neutral-700);
+}
+
+h1, h2, h3, h4 {
+    color: var(--clr-neutral-900);
+    line-height: 1.2;
+}
+
+a {
+    text-decoration: none;
+    color: var(--clr-neutral-700);
+}
+
+ul, ol {
+    list-style: none;
+}

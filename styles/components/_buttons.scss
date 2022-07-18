@@ -1,0 +1,38 @@
+.btn {
+    display: inline-block;
+    background-color: var(--clr-primary-600);
+    font-size: var(--fs-body-xs);
+    font-weight: var(--fw-semi-bold);
+    color: var(--clr-white);
+    line-height: 1rem;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    padding: 0.625rem 1rem;
+    text-transform: uppercase;
+    border-radius: 100px;
+
+    &--dark {
+        background-color: var(--clr-neutral-900);
+    }
+
+    &--md,
+    &--lg {
+        font-size: var(--fs-body-sm);
+        line-height: 1.25rem;
+    }
+
+    &--md {
+        padding: 1rem 1rem 1rem 1.25rem;
+    }
+
+    &--lg {
+        padding: 1rem 1.5rem;
+    }
+
+    &--flex {
+        display: inline-flex;
+        align-items: center;
+        gap: .5rem;
+    }
+}
